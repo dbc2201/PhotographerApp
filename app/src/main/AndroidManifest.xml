@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Login"></activity>
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Verify" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,7 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="in.ac.gla.miniProject.Photographer.IntroActivity"></activity>
+        <activity android:name=".IntroActivity" />
     </application>
 
 </manifest>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="in.ac.gla.miniProject.Photographer">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -11,7 +13,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Main2Activity"></activity>
         <activity android:name=".Login" />
-        <activity android:name=".Main3Activity" />
+
         <activity android:name=".Profile" />
         <activity android:name=".Verify" />
         <activity android:name=".MainActivity">

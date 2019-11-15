@@ -104,10 +104,10 @@ public class Verify extends AppCompatActivity {
 
 
     private void verifyVerificationCode(String code) {
-        //creating the credential
+
         PhoneAuthCredential credential = PhoneAuthProvider.getCredential(mVerificationId, code);
 
-        //signing the user
+
         signInWithPhoneAuthCredential(credential);
     }
 

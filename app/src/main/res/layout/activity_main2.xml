@@ -1,26 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="getlocation"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="144dp"></Button>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rel"
+        android:clickable="true"
+        android:layout_height="220dp">
 
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton"
 
-        android:id="@+id/text"
-        tools:ignore="MissingConstraints"></TextView>
+            android:src="@color/colorAccent"
+            android:padding="1dp"
+            android:layout_alignParentTop="true"
 
+             />
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rell"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:layout_height="220dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEW FEEDS"
+            android:textSize="40dp"
+            android:layout_marginLeft="100dp"
+
+            android:layout_marginTop="70dp"
+            android:textColor="#EEF0F1"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButtonn"
+
+            android:src="@color/colorPrimary"
+            android:padding="1dp"
+            android:layout_alignParentTop="true"
+
+             />
+
+
+
+    </RelativeLayout>
 </LinearLayout>

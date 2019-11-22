@@ -33,7 +33,7 @@ public class Main4Activity extends AppCompatActivity {
 
         recyclerView=findViewById(R.id.recyclerView);
 
-        databaseReference= FirebaseDatabase.getInstance().getReference().child("details");
+        databaseReference= FirebaseDatabase.getInstance().getReference().child("detail");
 
         final LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getApplicationContext());
         linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);

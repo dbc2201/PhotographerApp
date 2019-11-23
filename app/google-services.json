@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "492657468115",
+    "firebase_url": "https://photographerapp-41bf9.firebaseio.com",
+    "project_id": "photographerapp-41bf9",
+    "storage_bucket": "photographerapp-41bf9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492657468115:android:bb89ee12f393ac459d6a26",
+        "android_client_info": {
+          "package_name": "in.ac.gla.miniProject.Photographer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492657468115-83figugqg5cpvp9ev5rnuovsm8vuu1a5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.ac.gla.miniProject.Photographer",
+            "certificate_hash": "98cb56c0582653708991df5c30b520e3c66df685"
+          }
+        },
+        {
+          "client_id": "492657468115-cisg5ul46ej9ko8hmup1377ekf43s245.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcn4idbG4VGNRgx2E8XfdCIXn6jmCAzIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492657468115-cisg5ul46ej9ko8hmup1377ekf43s245.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

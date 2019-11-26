@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/ty"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+
+                    android:background="#A233"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/gg1"
+                    android:clickable="true" >
+                    <ImageView
+                        android:layout_width="400dp"
+                        android:layout_height="212dp"
+                        android:src="@drawable/oa">
+                    </ImageView>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="212dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="300dp"
+                    android:background="#A233"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/gg2"
+                    android:clickable="true" >
+                    <ImageView
+                        android:layout_width="400dp"
+                        android:layout_height="212dp"
+                        android:src="@drawable/ob">
+                    </ImageView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="212dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="300dp"
+                    android:background="#A233"
+                    android:id="@+id/gg3"
+                    app:cardCornerRadius="20dp"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:layout_width="400dp"
+                        android:layout_height="212dp"
+                        android:src="@drawable/oc">
+                    </ImageView>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

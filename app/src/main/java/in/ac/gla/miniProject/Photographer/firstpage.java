@@ -9,7 +9,7 @@ import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.ProgressBar;
 
-public class firstPage extends AppCompatActivity {
+class firstPage extends AppCompatActivity {
 
 
     @Override
